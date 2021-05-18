@@ -1,8 +1,9 @@
-# afkjls;
+# askldj;
  
+  ![License](https://img.shields.io/badge/license-AGPLv3.0-informational)
 
   ## Description
-  asljdf;
+  a;jsdf
 
   ## Table of Content
   - [Installation](#installation)
@@ -16,16 +17,20 @@
   npm i
 
   ## Usage 
-  ;ajfsk
+  ajsl;kkd
 
   ## License
+    This application is licensed under the terms of AGPLv3.0 open source license. 
+    Please refer to [AGPLv3.0 License] (https://choosealicense.com/licenses/agplv3.0) for the full terms.
+
+
 
   ## Contributing
-  ajl;ks
+  jklasj
 
   ## Tests
   npm test
 
   ## Questions
-  If you have any questions, email the developer at aj;fsl or visit their [GitHub profile](http://github.com/askdlfj)
+  If you have any questions, email the developer at <a;jlskdlkj> or visit their [GitHub profile](http://github.com/ljk;sak)
   

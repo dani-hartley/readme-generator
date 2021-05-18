@@ -46,7 +46,7 @@ const questions = [
         name: "license",
         Message: "What kind of license should your project have?",
         choices: [
-            'GNU Affero General Public License v3.0',
+            'AGPLv3.0',
             'Apache License 2.0',
             'BSD 2-Clause',
             'BSD 3-Clause',
@@ -56,7 +56,7 @@ const questions = [
             'GNU General Public License v2.0',
             'GNU General Public License v3.0',
             'GNU Lesser General Public License v2.1',
-            'MIT License',
+            'MIT',
             'Mozilla Public License 2.0',
             'The Unlicense'        
         ]
