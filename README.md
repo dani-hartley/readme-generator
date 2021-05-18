@@ -1,9 +1,9 @@
-# askldj;
+# undefined
  
-  ![License](https://img.shields.io/badge/license-AGPLv3.0-informational)
+  ![License](https://img.shields.io/badge/license-BSDv2-Clause-informational)
 
   ## Description
-  a;jsdf
+  undefined
 
   ## Table of Content
   - [Installation](#installation)
@@ -14,23 +14,23 @@
   - [Questions](#questions)
   
   ## Installation
-  npm i
+  undefined
 
   ## Usage 
-  ajsl;kkd
+  undefined
 
   ## License
-    This application is licensed under the terms of AGPLv3.0 open source license. 
-    Please refer to [AGPLv3.0 License] (https://choosealicense.com/licenses/agplv3.0) for the full terms.
+    This application is licensed under the terms of BSDv2-Clause open source license. 
+    Please refer to [BSDv2-Clause License] (https://choosealicense.com/licenses/bsdv2-clause) for the full terms.
 
 
 
   ## Contributing
-  jklasj
+  undefined
 
   ## Tests
-  npm test
+  undefined
 
   ## Questions
-  If you have any questions, email the developer at <a;jlskdlkj> or visit their [GitHub profile](http://github.com/ljk;sak)
+  If you have any questions, email the developer at <undefined> or visit their [GitHub profile](http://github.com/asdf)
   
