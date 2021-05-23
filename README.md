@@ -1,36 +1,49 @@
 # README Generator
- 
-  ![License](https://img.shields.io/badge/license-MIT-informational)
 
-  ## Description
-  A node application that dynamically creates a README.md from the users inputs.
+## Description
 
-  ## Table of Content
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  
-  ## Installation
-    npm install
+A command-line application using node.js that dynamically generates a README.md based on the user's input.
 
-  ## Usage 
-  This is where you explain how to download and use this application from the repository.
+ **Information included in the README.md:**
 
-  ## License
-  This application is licensed under the terms of MIT open source license. 
-  Please refer to [MIT License](https://choosealicense.com/licenses/mit) for the full terms.
+- Project Title
+- License Badge
+- Description
+- Table of Contents
+- Installation
+- Usage
+- License
+- Contributing
+- Tests
+- Questions
+
+## User Story
+
+![User Story Guideline](https://user-images.githubusercontent.com/79660405/118719516-34bf8c00-b7ee-11eb-9fe0-dec3e8f7e6cd.png)
+
+## Acceptance Criteria 
+
+![Acceptance Criteria Guideline](https://user-images.githubusercontent.com/79660405/118719669-620c3a00-b7ee-11eb-9a12-e51fd430a602.png)
+
+## Installation
+
+1. Clone README Generator repository
+2. Run <code>npm install</code> to install dependencies
+3. Run <code>node index</code> to run the app
+4. Answer the prompts
+5. Review your README.md 
+
+## Usage
+
+### Video
+* [Video of User Experience](https://drive.google.com/file/d/1Nms8APN9t5Isbs1jLUvHVvLdKT8AX3gN/view)
+
+![Screen Recoding of Application](./assets/README-Generator.gif)
+
+### Screenshots
+
+![User Prompts](./assets/user-prompts.jpg)
+![README Markdown](./assets/readme-markdown.jpg)
+![README Preview](./assets/readme-preview.jpg)
 
 
-
-  ## Contributing
-  This is where you explain how others can contribute.
-
-  ## Tests
-    npm test
-
-  ## Questions
-  If you have any questions, email the developer at <danihartley@email.com> or visit their [GitHub profile](http://github.com/dani-hartley)
-  
