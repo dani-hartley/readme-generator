@@ -1,9 +1,9 @@
-# undefined
+# README Generator
  
-  ![License](https://img.shields.io/badge/license-BSDv2-Clause-informational)
+  ![License](https://img.shields.io/badge/license-MIT-informational)
 
   ## Description
-  undefined
+  A node application that dynamically creates a README.md from the users inputs.
 
   ## Table of Content
   - [Installation](#installation)
@@ -14,23 +14,23 @@
   - [Questions](#questions)
   
   ## Installation
-  undefined
+    npm install
 
   ## Usage 
-  undefined
+  This is where you explain how to download and use this application from the repository.
 
   ## License
-    This application is licensed under the terms of BSDv2-Clause open source license. 
-    Please refer to [BSDv2-Clause License] (https://choosealicense.com/licenses/bsdv2-clause) for the full terms.
+  This application is licensed under the terms of MIT open source license. 
+  Please refer to [MIT License](https://choosealicense.com/licenses/mit) for the full terms.
 
 
 
   ## Contributing
-  undefined
+  This is where you explain how others can contribute.
 
   ## Tests
-  undefined
+    npm test
 
   ## Questions
-  If you have any questions, email the developer at <undefined> or visit their [GitHub profile](http://github.com/asdf)
+  If you have any questions, email the developer at <danihartley@email.com> or visit their [GitHub profile](http://github.com/dani-hartley)
   

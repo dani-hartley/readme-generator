@@ -12,8 +12,8 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (!license) {
-      return "";
-    } else {
+    return "";
+  } else {
     return `https://choosealicense.com/licenses/${license.toLowerCase()}`;
   }
 }
@@ -25,14 +25,13 @@ function renderLicenseSection(license) {
     return "";
   } else {
     return `## License
-    This application is licensed under the terms of ${license} open source license. 
-    Please refer to [${license} License] (${renderLicenseLink(license)}) for the full terms.`;
+  This application is licensed under the terms of ${license} open source license. 
+  Please refer to [${license} License](${renderLicenseLink(license)}) for the full terms.`;
   }
- };
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
   return `# ${data.title}
  
   ${renderLicenseBadge(data.license)}
@@ -49,7 +48,7 @@ function generateMarkdown(data) {
   - [Questions](#questions)
   
   ## Installation
-  ${data.installation}
+    ${data.installation}
 
   ## Usage 
   ${data.usage}
@@ -62,7 +61,7 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## Tests
-  ${data.test}
+    ${data.test}
 
   ## Questions
   If you have any questions, email the developer at <${data.email}> or visit their [GitHub profile](http://github.com/${data.github})

@@ -34,7 +34,7 @@ const questions = [
         type: "input",
         name: "installation",
         message: "What command should be run to install dependencies?",
-        default: "npm i"
+        default: "npm install"
     },
     {
         type: "input",
@@ -56,7 +56,7 @@ const questions = [
             'LGPLv2.1',
             'MIT',
             'MPLv2.0',
-            'Unlicense'        
+            'Unlicense'      
         ]
     },
     {
@@ -73,7 +73,7 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "What is your email address",
+        message: "What is your email address?",
         validate: input => {
             if (input) {
                 return true;
@@ -102,18 +102,18 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile(`./README.md`, data, err => {
+        fs.writeFile(`README.md`, data, err => {
             if (err) {
                 reject(err);
                 return;
             }
             resolve ({
                 ok: true,
-                message: "README.md has been successfully created!"
+                message: 'README.md has been successfully created!'
             });
         });
     });
-}
+};
 
 // TODO: Create a function to initialize app
 function init() {
@@ -124,6 +124,13 @@ function init() {
 init()
     .then(generateMarkdown)
     .then(writeToFile)
+    .then(data => {
+        if (data.ok) {
+        console.log(data.message);
+    } else {
+        console.log('Your data was not processed correctly.');
+    }
+    })
     .catch(err => {
         console.log(err);
     });
