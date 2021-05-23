@@ -42,10 +42,10 @@ A command-line application using node.js that dynamically generates a README.md 
 
 ### Screenshots
 
-![User Prompts](./assets/user-prompts)
+![User Prompts](https://user-images.githubusercontent.com/79660405/119274106-eafee900-bbd3-11eb-8f9f-f8fa7b966f87.png)
 
-![README Markdown](./assets/readme-markdown.jpg)
+![README Markdown](https://user-images.githubusercontent.com/79660405/119274083-ca369380-bbd3-11eb-9b19-bac04b50e752.png)
 
-![README Preview](./assets/readme-preview)
+![README Preview](https://user-images.githubusercontent.com/79660405/119274001-572d1d00-bbd3-11eb-845c-bce91c0113d3.png)
 
 
